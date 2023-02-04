@@ -44,36 +44,12 @@ class _CalculatorState extends State<Calculator> {
             Row(
               mainAxisAlignment: MainAxisAlignment.end,
               children: [
-                // Expanded(
-                //   child: SingleChildScrollView(
-                //     scrollDirection: Axis.horizontal,
-                //     child: Text(
-                //             text,
-                //             maxLines: 1,
-                //             textAlign: TextAlign.end,
-                //             overflow: TextOverflow.ellipsis,
-                //             style: TextStyle(color: Colors.white, fontSize: 40),
-                //           ),
-                //   )
-
-
-        // Text(
-        //             text,
-        //             maxLines: 1,
-        //             textAlign: TextAlign.end,
-        //             overflow: TextOverflow.ellipsis,
-        //             style: TextStyle(color: Colors.white, fontSize: 40),
-        //           ),
-
-                // )
-
-
                 Padding(
-                  padding: EdgeInsets.fromLTRB(10.0, 0, 30.0, 40.0),
+                  padding: EdgeInsets.fromLTRB(10.0, 0, 30.0, 20.0),
                   child: Text(
-                    "0000000000000000000",
+                    text,
                     textAlign: TextAlign.left,
-                    style: TextStyle(color: Colors.white, fontSize: 50.0),
+                    style: TextStyle(color: Colors.white, fontSize: 80.0),
                   ),
                 ),
               ],
