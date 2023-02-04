@@ -68,10 +68,10 @@ class _CalculatorState extends State<Calculator> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                numberBtn("C", Colors.grey, Colors.black),
-                numberBtn("+/-", Colors.grey, Colors.black),
-                numberBtn("%", Colors.grey, Colors.black),
-                numberBtn("/", Colors.orange, Colors.white),
+                numberBtn("7", Colors.grey, Colors.black),
+                numberBtn("8", Colors.grey, Colors.black),
+                numberBtn("9", Colors.grey, Colors.black),
+                numberBtn("x", Colors.orange, Colors.white),
               ],
             ),
             SizedBox(height: 10),
@@ -79,10 +79,10 @@ class _CalculatorState extends State<Calculator> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                numberBtn("C", Colors.grey, Colors.black),
-                numberBtn("+/-", Colors.grey, Colors.black),
-                numberBtn("%", Colors.grey, Colors.black),
-                numberBtn("/", Colors.orange, Colors.white),
+                numberBtn("4", Colors.grey, Colors.black),
+                numberBtn("5", Colors.grey, Colors.black),
+                numberBtn("6", Colors.grey, Colors.black),
+                numberBtn("-", Colors.orange, Colors.white),
               ],
             ),
             SizedBox(height: 10),
@@ -90,10 +90,21 @@ class _CalculatorState extends State<Calculator> {
             Row(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: [
-                numberBtn("C", Colors.grey, Colors.black),
-                numberBtn("+/-", Colors.grey, Colors.black),
-                numberBtn("%", Colors.grey, Colors.black),
-                numberBtn("/", Colors.orange, Colors.white),
+                numberBtn("1", Colors.grey, Colors.black),
+                numberBtn("2", Colors.grey, Colors.black),
+                numberBtn("3", Colors.grey, Colors.black),
+                numberBtn("+", Colors.orange, Colors.white),
+              ],
+            ),
+            SizedBox(height: 10),
+
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
+                numberBtn("0", Colors.grey, Colors.black),
+                numberBtn("", Colors.grey, Colors.black),
+                numberBtn(".", Colors.grey, Colors.black),
+                numberBtn("=", Colors.orange, Colors.white),
               ],
             ),
             SizedBox(height: 10),
